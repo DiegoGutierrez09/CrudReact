@@ -1,0 +1,7 @@
+CREATE DATABASE proyectdb CREATE TABLE user(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR (40) UNIQUE,
+    email VARCHAR (50) UNIQUE,
+    password VARCHAR (40) NOT NULL,
+    age VARCHAR(10)
+);
